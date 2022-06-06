@@ -23,7 +23,7 @@ const Todo = () => {
       <div className="todo_header">Todo App</div>
       <div>
           <input value={query} onChange={(e)=> setQuery(e.target.value)} type="text" placeholder="Add items..."/>
-          <button onClick={handleAdd} > ADD</button>
+          <button onClick={handleAdd} > +</button>
       </div>
       <div>{list.map((item)=>{
          return (
